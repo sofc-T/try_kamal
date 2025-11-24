@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+/bin/
+/build/
+/dist/
+
+# Test and coverage output
+*.test
+*.out
+coverage.out
+
+# Go build artifacts
+pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+/vendor/
+
+# Logs and temporary files
+*.log
+*.cache
+*~
+
+# Environment files (local secrets)
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+.docker
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+node_modules/
+
+
+# Kamal specific ignores
+.kamal/secrets

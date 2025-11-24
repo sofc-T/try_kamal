@@ -1,0 +1,13 @@
+image: sofc-t/kamal-first:dev-latest
+
+# Pull registry credentials from `.kamal/secrets` (or environment)
+registry:
+  username: ${KAMAL_REGISTRY_USERNAME}
+  password: ${KAMAL_REGISTRY_PASSWORD}
+
+servers:
+  web:
+    hosts:
+      - ${REMOTE_HOST}
+    ssh:
+      user: ${REMOTE_SSH_USER}

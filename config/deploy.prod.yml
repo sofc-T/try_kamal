@@ -1,0 +1,7 @@
+image: sofonyas/kamal-first:{GIT-COMMIT-SHORT}
+
+servers:
+	web:
+		hosts:
+			- app.example.com
+		cmd: ''
